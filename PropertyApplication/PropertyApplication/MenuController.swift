@@ -2,8 +2,7 @@
 //  MenuController.swift
 //  PropertyApplication
 //
-//  Created by Saad Abdullah Gondal on 3/8/17.
-//  Copyright © 2017 Saad Abdullah Gondal. All rights reserved.
+//  Created by Saud Bin Habib
 //
 
 import UIKit

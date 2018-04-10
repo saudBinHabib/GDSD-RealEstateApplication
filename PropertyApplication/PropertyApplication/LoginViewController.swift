@@ -2,8 +2,7 @@
 //  LoginViewController.swift
 //  PropertyApplication
 //
-//  Created by Saad Abdullah Gondal on 3/5/17.
-//  Copyright © 2017 Saad Abdullah Gondal. All rights reserved.
+//  Created by Saud Bin Habib
 //
 
 import UIKit
@@ -62,11 +61,11 @@ class LoginViewController: UIViewController {
         
         // POST request to server
         let hostAddress = ProjectConfigs.hostAddress;
-        let myUrl = URL(string: "\(hostAddress)/Property/ios_loginservice/signInUser");
+        let myUrl = URL(string: "\(hostAddress)login");
         var request = URLRequest(url: myUrl!);
         request.httpMethod = "POST";
         
-        let jsonPostString: [String: Any] = ["email": userEmail ?? "", "password": userPassword ?? ""];
+        let jsonPostString: [String: Any] = ["username": userEmail ?? "", "password": userPassword ?? ""];
         let jsonData = try? JSONSerialization.data(withJSONObject: jsonPostString)
         
         request.httpBody = jsonData;
@@ -87,12 +86,12 @@ class LoginViewController: UIViewController {
                     let status = parseJSON["status"] as? String
                     print("result::::::: \(status)")
                     
-                    let userTypeId = parseJSON["userTypeId"] as? String
+                    let userTypeId = parseJSON["UserTypeId"] as? String
                     print("user type id :::::: \(userTypeId)")
                     
                     print("user type ::::: \(parseJSON["userTypeDescription"])")
                     
-                    if(status == "Success")
+                    if(status == "true")
                     {
                         
                         DispatchQueue.main.async {

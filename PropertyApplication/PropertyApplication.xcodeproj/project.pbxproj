@@ -238,7 +238,7 @@
 				TargetAttributes = {
 					5E40464A1E9E91400026C9E7 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = ZP4S9WUHAG;
+						DevelopmentTeam = XHT32DL7EC;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
@@ -473,10 +473,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = ZP4S9WUHAG;
+				DEVELOPMENT_TEAM = XHT32DL7EC;
 				INFOPLIST_FILE = PropertyApplication/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = GDSD.PropertyApplication;
+				PRODUCT_BUNDLE_IDENTIFIER = "saudkhan3551-outlook.com.GDSD.PropertyApplication";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "PropertyApplication-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -489,10 +489,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = ZP4S9WUHAG;
+				DEVELOPMENT_TEAM = XHT32DL7EC;
 				INFOPLIST_FILE = PropertyApplication/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = GDSD.PropertyApplication;
+				PRODUCT_BUNDLE_IDENTIFIER = "saudkhan3551-outlook.com.GDSD.PropertyApplication";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "PropertyApplication-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
@@ -576,6 +576,7 @@
 				5E4046751E9E91410026C9E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E4046761E9E91410026C9E7 /* Build configuration list for PBXNativeTarget "PropertyApplicationTests" */ = {
 			isa = XCConfigurationList;
@@ -584,6 +585,7 @@
 				5E4046781E9E91410026C9E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E4046791E9E91410026C9E7 /* Build configuration list for PBXNativeTarget "PropertyApplicationUITests" */ = {
 			isa = XCConfigurationList;
@@ -592,6 +594,7 @@
 				5E40467B1E9E91410026C9E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
